@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.park1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 200pt;
+  max-width: 100%;
+  width: 100%;
+}
+.puppy1 {
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+.puppy2{
+  width: 2in;
+  height: 2in;
+  position: relative;
+}
+
+.title{
+  position: absolute;
+  bottom: -6pt;
+  left: 400px;
+  font-size: 26pt;
+  font-family: 'Macondo', cursive;
+  color: #d4af37;
+  outline-color: invert;
+  outline-width: medium;
+}
+
+
+.story{
+  font-family: 'indie flower', cursive;
+  line-height: normal;
+  text-align: justify;
+  float: right;
+  padding-right: 30pt;
+  font-size: 12pt;
+  text-indent: 0.6in;
+}
+.sticky {
+  position: sticky;
+  top: 10px; /* When the element reaches top: 10px, it becomes fixed. */
+  z-index: 100;
+}
+
+.profile{
+  background-color: rgb(250,250,250);
+  border-bottom-left-radius: 10pt;
+  border-bottom-right-radius: -radius: 10pt;
+  text-align: center;
+  margin-top: -10pt;
+  float: left;
+  margin-left: : 2pt;
+}
+
+.me{
+  width: 1in;
+  height: 1in;
+  border-radius: 50%;
+}
+
+.boutMe{
+  text-align: justify;
+  margin-left: 0.2in;
+  margin-top: 5pt;
+
+}
+
+.thmb1{
+  text-align: center;
+}
